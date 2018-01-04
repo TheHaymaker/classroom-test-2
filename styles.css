@@ -1,0 +1,55 @@
+.nav {
+ background-color: #2A4053;
+ padding: 23px 20px;
+}
+
+.nav:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.logo-container,
+.nav-items,
+.nav-items li {
+  display: inline-block;
+}
+
+/* NAVIGATION */
+.logo,
+.nav-items li a {
+  color: white;
+}
+
+.nav-items {
+  float: right;
+}
+
+/* Grid layout / columns */
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.col {
+  float: left;
+}
+
+.col_66 {
+  width: 66%;
+  background-color: yellow;
+}
+
+.col_33 {
+  width: 33%;
+  background-color: #f5f5f5;
+}
+
+
+
+
+
+
+
